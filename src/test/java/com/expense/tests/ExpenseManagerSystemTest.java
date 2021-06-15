@@ -22,7 +22,7 @@ public class ExpenseManagerSystemTest {
 		//String expectedTitle = "Hello Page";
 		
 		//Correct Code
-		String expectedTitle = "Login page";
+		String expectedTitle = "Login Page";
 		
 		String actualTitle = driver.getTitle();
 		assertEquals(expectedTitle, actualTitle);
